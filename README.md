@@ -7,7 +7,7 @@ No campo da **Visão Computacional** (Computer Vision), técnicas de processamen
 
 Os algoritmos de **visão computacional** tem como entrada uma ou mais imagens digitais que são pré-processadas por meio de técnicas de processamento de imagem para que informações úteis possam ser extraídas.
 
-Existem varias bibliotecas disponíveis para auxiliar no processamento de imagens como [OpenCV](https://opencv.org/).
+Existem inumeras bibliotecas disponíveis para auxiliar no processamento de imagens como o [OpenCV](https://opencv.org/).
 
 Para os exemplos apresentados foi usada a biblioteca [scikit-image2](https://scikit-image.org/) que é uma coleção de algoritmos para processamento de imagens. Está disponível gratuitamente e sem restrições.
 

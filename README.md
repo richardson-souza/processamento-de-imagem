@@ -9,7 +9,7 @@ Os algoritmos de **visão computacional** tem como entrada uma ou mais imagens d
 
 Existem inumeras bibliotecas disponíveis para auxiliar no processamento de imagens como o [OpenCV](https://opencv.org/).
 
-Para os exemplos apresentados foi usada a biblioteca [scikit-image2](https://scikit-image.org/) que é uma coleção de algoritmos para processamento de imagens. Está disponível gratuitamente e sem restrições.
+Para os exemplos apresentados foi usada a biblioteca [scikit-image²](https://scikit-image.org/) que é uma coleção de algoritmos para processamento de imagens. Está disponível gratuitamente e sem restrições.
 
 ### Citação
 

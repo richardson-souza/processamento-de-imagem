@@ -7,7 +7,7 @@ No campo da **Visão Computacional** (Computer Vision), técnicas de processamen
 
 Os algoritmos de **visão computacional** tem como entrada uma ou mais imagens digitais que são pré-processadas por meio de técnicas de processamento de imagem para que informações úteis possam ser extraídas.
 
-scikit-image³ é uma coleção de algoritmos para processamento de imagens. Está disponível gratuitamente e sem restrições.
+[scikit-image]³(https://scikit-image.org/) é uma coleção de algoritmos para processamento de imagens. Está disponível gratuitamente e sem restrições.
 
 ### Citação
 

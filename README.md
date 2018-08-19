@@ -22,9 +22,10 @@ A detecção de bordas é uma das operações mais usadas no processamento de im
 Foto: Juiana Rosa
 
 Uma borda é a fronteira entre duas regiões de níveis de cinza diferentes. Para a detecção e realce de bordas, é aplicado o filtro por derivada utilizando-se máscaras de convolução, também chamadas de operadores de 2x2 ou de 3x3.[4]  
-Alguns exemplos destas máscaras que estão presentes no scikit-image são os operadores de Roberts, Prewitt, Sobel e Scharr.
+Alguns exemplos destas máscaras que estão presentes no scikit-image são os operadores de [Roberts](https://en.wikipedia.org/wiki/Roberts_cross), Prewitt, Sobel e Scharr.
 Os detectores de bordas (Roberts, Prewitt, Sobel e Scharr) são conhecidos também como filtros por derivadas, pois é o método mais comum de diferenciação utilizado em processamento de imagem.[5]  
-Uma importante função escalar é a magnitude gradiente, dada por:  
+Existem dois operadores gradiente fundamentais de Primeira Ordem (ou detetores de borda diferenciadores de primeira ordem). Um método envolve a geração de gradientes em duas direções ortogonais na imagem enquanto o outro método utiliza um conjunto de derivadas direcionais.[6]  
+
 
 
 
@@ -40,5 +41,7 @@ Uma importante função escalar é a magnitude gradiente, dada por:
 
 > [4] MATURAnA, Patrícia. **ALGORITMOS DE DETECÇÃO DE BORDAS IMPLEMENTADOS EM FPGA**. FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA, 2010.
 
-> [5] . Silva, F.J.V., Alves, C.H.F. **APLICAÇÃO DE TÉCNICAS DE PROCESSAMENTO DE IMAGENS DIGITAIS EM IMAGENS GERADAS POR ULTRA-SOM**. Universidade Federal do Rio Grande do Norte, 2008.  
+> [5] SILVA, F.J.V., ALVES, C.H.F. **APLICAÇÃO DE TÉCNICAS DE PROCESSAMENTO DE IMAGENS DIGITAIS EM IMAGENS GERADAS POR ULTRA-SOM**. Universidade Federal do Rio Grande do Norte, 2008.
+
+> [6] BRITO, Sérgio. **Relatorio Final de Iniciação Científica Sistemas de Processamento Digital de Imagens para Fins Didático/Cientíco - Estudo	 Seleção e Implementação de Algoritmos de Segmentação.** Universidade Federal da Paraíba, 1998.
 

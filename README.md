@@ -64,7 +64,17 @@ ax[2].set_title('Operador de Scharr')
 
 ax[3].imshow(op_prewitt, cmap=plt.cm.gray)
 ax[3].set_title('Operador de Prewitt')
-```
+
+for a in ax:
+    a.axis('off')
+
+plt.tight_layout()
+plt.show()
+```  
+
+[![Câmera](img/exemplo_02.png "Câmera")](https://scontent.fmao1-1.fna.fbcdn.net/v/t1.0-9/14519727_2122652064626465_3348462453977853941_n.jpg?_nc_cat=0&oh=af59b5fa93c3638676555b2a4ec396ec&oe=5C06CACC)  
+Foto: Juiana Rosa
+
 
 
 ## Citação

@@ -22,7 +22,7 @@ A detecção de bordas é uma das operações mais usadas no processamento de im
 Foto: Juiana Rosa
 
 Uma borda é a fronteira entre duas regiões de níveis de cinza diferentes. Para a detecção e realce de bordas, é aplicado o filtro por derivada utilizando-se máscaras de convolução, também chamadas de operadores de 2x2 ou de 3x3.[4]  
-Alguns exemplos destas máscaras que estão presentes no scikit-image são os operadores de [Roberts](https://en.wikipedia.org/wiki/Roberts_cross), Prewitt, Sobel e Scharr.
+Alguns exemplos destas máscaras que estão presentes no scikit-image são os operadores de [Roberts](https://en.wikipedia.org/wiki/Roberts_cross), [Prewitt](https://en.wikipedia.org/wiki/Prewitt_operator), [Sobel](https://en.wikipedia.org/wiki/Sobel_operator) e [Scharr](https://en.wikipedia.org/wiki/Sobel_operator#Alternative_operators).
 Os detectores de bordas (Roberts, Prewitt, Sobel e Scharr) são conhecidos também como filtros por derivadas, pois é o método mais comum de diferenciação utilizado em processamento de imagem.[5]  
 Existem dois operadores gradiente fundamentais de Primeira Ordem (ou detetores de borda diferenciadores de primeira ordem). Um método envolve a geração de gradientes em duas direções ortogonais na imagem enquanto o outro método utiliza um conjunto de derivadas direcionais.[6]  
 

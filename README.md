@@ -1,5 +1,4 @@
-Processamento de Imagem em Python
----------------------------------
+## Processamento de Imagem em Python
 
 O **Processamento de imagens** (Image Processing) apresentam técnicas para manipular informações representadas na imagem como por exemplo, realçar bordas e remover ruídos.¹
 

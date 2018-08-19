@@ -28,6 +28,16 @@ Existem dois operadores gradiente fundamentais de Primeira Ordem (ou detetores d
 
 
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+from skimage.io import imread
+from skimage.filters import roberts, sobel, scharr, prewitt
+```
+
+
+
 
 
 

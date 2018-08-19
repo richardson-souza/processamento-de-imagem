@@ -13,9 +13,12 @@ $ pip install -U scikit-image
 
 ## Detecção de borda (Edge Detection)
 
+A detecção de bordas é uma das operações mais usadas no processamento de imagens, e provavelmente há mais algoritmos na literatura para melhorar e detectar bordas do que qualquer outro assunto em particular.³  
+
 
 ## Citação
 
-> 1. BARELLI, Felipe. Introdução à Visão Computacional: Uma abordagem prática com Python e OpenCV. Casa do Código, 2018.
+> 1. BARELLI, Felipe. **Introdução à Visão Computacional: Uma abordagem prática com Python e OpenCV**. Casa do Código, 2018.  
+> 2. Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the scikit-image contributors. **scikit-image: Image processing in Python**. PeerJ 2:e453 (2014) http://dx.doi.org/10.7717/peerj.453  
+> 3. PARKER, J.R. **Algorithms for Image Processing and Computer Vision**. Wiley Publishing, 2011.
 
-> 2. Stéfan van der Walt, Johannes L. Schönberger, Juan Nunez-Iglesias, François Boulogne, Joshua D. Warner, Neil Yager, Emmanuelle Gouillart, Tony Yu and the scikit-image contributors. **scikit-image: Image processing in Python.** PeerJ 2:e453 (2014) http://dx.doi.org/10.7717/peerj.453 

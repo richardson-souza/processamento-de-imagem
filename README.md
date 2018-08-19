@@ -26,19 +26,26 @@ Alguns exemplos destas máscaras que estão presentes no scikit-image são os op
 Os detectores de bordas (Roberts, Prewitt, Sobel e Scharr) são conhecidos também como filtros por derivadas, pois é o método mais comum de diferenciação utilizado em processamento de imagem.[5]  
 Existem dois operadores gradiente fundamentais de Primeira Ordem (ou detetores de borda diferenciadores de primeira ordem). Um método envolve a geração de gradientes em duas direções ortogonais na imagem enquanto o outro método utiliza um conjunto de derivadas direcionais.[6]  
 
-Importando bibliotecas necessárias  
+Importando bibliotecas necessárias:  
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
 
 from skimage.io import imread
 from skimage.filters import roberts, sobel, scharr, prewitt
+```  
+
+Usando os operadores:  
+
+```python
+img = imread("input/camera_01.jpg", as_gray=True) # carregando imagem
+op_roberts = roberts(img)
+op_sobel = sobel(img)
+op_scharr = scharr(img)
+op_prewitt = prewitt(img)
+
 ```
-
-
-
-
-
 
 ## Citação
 

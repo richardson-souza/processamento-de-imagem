@@ -15,7 +15,7 @@ $ pip install -U scikit-image
 
 A detecção de bordas é uma das operações mais usadas no processamento de imagens, e provavelmente há mais algoritmos na literatura para melhorar e detectar bordas do que qualquer outro assunto em particular. A razão para isso é que as arestas formam o contorno de um objeto, no sentido genérico. Objetos são assuntos de interesse em análise de imagens e no campo da visão computacional.³  
 
-![foto Juliana Rosa](img/exemplo_01.png)
+![Museu do Amanhã](img/exemplo_01.png "foto: Juliana Rosa")
 
 ## Citação
 

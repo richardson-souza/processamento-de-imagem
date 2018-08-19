@@ -11,8 +11,9 @@ Existem inumeras bibliotecas disponíveis para auxiliar no processamento de imag
 Para os exemplos apresentados foi usada a biblioteca [scikit-image²](https://scikit-image.org/) que é uma coleção de algoritmos para processamento de imagens. Está disponível gratuitamente e sem restrições.
 
 ### Requisitos
-
-
+```
+$ pip install -U scikit-image
+```
 
 ### Citação
 

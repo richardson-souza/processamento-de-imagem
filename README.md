@@ -46,7 +46,7 @@ op_scharr = scharr(img)
 op_prewitt = prewitt(img)
 ```  
 
-Plotando os resultados:  
+Visualizando os resultados:  
 
 ```python
 fig, axes = plt.subplots(nrows=2, ncols=2, sharex=True, sharey=True, figsize=(12, 12))
